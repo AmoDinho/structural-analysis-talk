@@ -13,10 +13,32 @@ You know exactly what you need to code and what to test within your code. Start 
 
 Overview of process
 
+Initial you would've sat with your designers and gone over user stories of your appliation and they wouldve made mockups in high fidelity. Now its time for these mocks to be turned into code, but mocks don't tell use the state of an object or the sequence of events between objects. This is where you come in:
+
+* 1st you will map all your objects out
+* understand their behaviour and attributes
+* Find your most challenging use cases
+* Identify what is challenging about them: state? activities? sequence? data model?
+* Then create the necessary diagram to understand the use case in that way. 
+
 
 Object mapping
+So here all we need to do is identify the actors in our app. Lets take the fictional example of a Lunar Tour operator.
+Users simple come online and book from a variety of vacation experinces on the Moon. 
+
+Objects of interest:
+* users (travellers, operating staff)
+* bookings
+* vaction listing
+
+now we can start defining attributes for them, this can either be stolen from your ERD if you opt for a SQL backend or from the mocks yopur designer made.
+
+[create attributes for objects]
+
 
 Diagrams
+
+
 
 What does this look like in code?
 
