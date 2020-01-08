@@ -38,7 +38,15 @@ now we can start defining attributes for them, this can either be stolen from yo
 
 Diagrams
 
+No there are a quite a few diagrams
 
+Activity
+
+Sequence
+
+State Diagram
+
+ERD (SQL Backends)
 
 What does this look like in code?
 
